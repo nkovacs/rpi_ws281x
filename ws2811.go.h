@@ -27,7 +27,7 @@
  
 #include <stdint.h>
 #include <string.h>
-#include "../../ws2811.h"
+#include "ws2811.h"
 
 ws2811_t ledstring = {
    .freq = 800000,
