@@ -34,7 +34,7 @@ package ws2811
 
 /*
 #cgo CFLAGS: -std=c99
-#cgo LDFLAGS: -lws2811
+#cgo LDFLAGS: -lws2811 -L${SRCDIR}/../../
 #include "ws2811.go.h"
 */
 import "C"
