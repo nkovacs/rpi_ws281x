@@ -33,7 +33,7 @@ See https://github.com/jgarff/rpi_ws281x for instructions
 package ws2811
 
 /*
-#cgo CFLAGS: -std=gnu11
+#cgo CFLAGS: -std=gnu11 -Wno-pointer-to-int-cast -Wno-int-to-pointer-cast
 #include "ws2811.go.h"
 */
 import "C"
